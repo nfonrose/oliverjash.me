@@ -18,7 +18,7 @@ In a recent project I was confronted with a design that used a primary colour si
       color: blue;
     }
 
-I'm sure we all know that pre-processors can improve the situation here with variables.
+I’m sure we all know that pre-processors can improve the situation here with variables.
 
 
     $primary-colour: blue;
@@ -58,7 +58,7 @@ I can theme the website by using a `body` class to specify the active theme.
       }
     }
 
-This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website's colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, pre-processors aren't clever enough to automatically generate my CSS.
+This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, pre-processors aren’t clever enough to automatically generate my CSS.
 
     $primary-colour: blue;
 
