@@ -13,10 +13,22 @@
     <atom:link href="http://oliverash.me/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>http://oliverash.me/</link>
     <description>Personal writing, work and photography</description>
-    <lastBuildDate>Sun, 26 Aug 2012 19:46:28 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Aug 2012 23:32:56 +0100</lastBuildDate>
     <language>en</language>
     <copyright>Copyright Oliver Joseph Ash</copyright>
 
+    
+    <item>
+      <title>IMG_4411</title>
+      <link>http://oliverash.me/2012/08/27/IMG_3488.html</link>
+      <pubDate>Mon, 27 Aug 2012 00:00:00 +0100</pubDate>
+      <guid>http://oliverash.me/2012/08/27/IMG_3488</guid>
+      <description>
+      
+        &lt;img class=&quot;post-image&quot; src=&quot;http://farm8.staticflickr.com/7280/7876080694_d3bef66da6_b.jpg&quot; alt=&quot;&quot;&gt;
+      
+      </description>
+    </item>
     
     <item>
       <title>Theming with CSS Pre-processors</title>
