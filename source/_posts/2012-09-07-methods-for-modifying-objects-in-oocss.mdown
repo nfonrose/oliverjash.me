@@ -300,4 +300,4 @@ Alternatively, you may just add a class to your HTML, reducing the complexity of
       font-size: 20px;
     }
 
-If you have an different view on anything I’ve said here, hit me up on [Twitter](https://twitter.com/OliverJAsh).
+If you have an different view on anything I’ve said here, please do let me know over on [Twitter](https://twitter.com/OliverJAsh). I’m incredibly critical of the methods I use in practice (like any front-end developer should be, really). All criticism is good.
