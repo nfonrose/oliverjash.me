@@ -286,15 +286,7 @@ In conclusion, I personally believe it is better to defer the work of object mod
 
 Alternatively, you may just add a class to your HTML, reducing the complexity of your CSS:
 
-    /* SCSS */
-
-    .island {
-      .island-title {
-        font-size: 20px;
-      }
-    }
-
-    /* CSS */
+    /* SCSS/CSS */
 
     .island-title {
       font-size: 20px;
