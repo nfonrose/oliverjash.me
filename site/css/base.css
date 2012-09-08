@@ -571,15 +571,15 @@ h4, .h4 {
     font-style: italic;
     font-weight: 700; }
 
-/* line 23, ../_scss/foundations/modules/_post.scss */
-.post-content {
+/* line 26, ../_scss/foundations/modules/_post.scss */
+.post-content h1, .post-content .h1 {
+  text-align: center; }
+/* line 30, ../_scss/foundations/modules/_post.scss */
+.post-content img {
+  max-width: 100%; }
+/* line 34, ../_scss/foundations/modules/_post.scss */
+.post-content p {
   text-align: justify; }
-  /* line 27, ../_scss/foundations/modules/_post.scss */
-  .post-content h1, .post-content .h1 {
-    text-align: center; }
-  /* line 31, ../_scss/foundations/modules/_post.scss */
-  .post-content img {
-    max-width: 100%; }
 
 /* line 12, ../_scss/foundations/_type-system.scss */
 body {

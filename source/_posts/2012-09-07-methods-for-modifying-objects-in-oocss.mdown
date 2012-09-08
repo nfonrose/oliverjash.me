@@ -103,7 +103,7 @@ Now what if I need to extend this object to create a modifier?
       border: 1px solid rgb(230, 230, 230);
     }
 
-This is the sort of situation where `@extend` may pose a problem or two, because **extending an object will also extend every nested object**. As you can see, `widget` doesn’t just share itself with `widget-alt`, but also its descendants, which in this example are the `h1` and `p` elements. This has already increased our CSS more than is necessary, and will eventually lead to long selectors very long selectors (on bigger projects).
+This is the sort of situation where `@extend` may pose a problem or two, because **extending an object will also extend every nested object**. As you can see, `widget` doesn’t just share itself with `widget-alt`, but also its descendants, which in this example are the `h1` and `p` elements. This has already increased our CSS more than is necessary, and will eventually lead to very long selectors (on bigger projects).
 
 Now say for instance that we need to adjust the trailing margin of all `widget` objects that are within the sidebar. But how are we going to target those widgets?
 

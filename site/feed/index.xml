@@ -13,7 +13,7 @@
     <atom:link href="http://oliverash.me/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>http://oliverash.me/</link>
     <description>Personal writing, work and photography</description>
-    <lastBuildDate>Fri, 07 Sep 2012 22:54:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 08 Sep 2012 12:18:32 +0100</lastBuildDate>
     <language>en</language>
     <copyright>Copyright Oliver Joseph Ash</copyright>
 
@@ -128,7 +128,7 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This is the sort of situation where &lt;code&gt;@extend&lt;/code&gt; may pose a problem or two, because &lt;strong&gt;extending an object will also extend every nested object&lt;/strong&gt;. As you can see, &lt;code&gt;widget&lt;/code&gt; doesn’t just share itself with &lt;code&gt;widget-alt&lt;/code&gt;, but also its descendants, which in this example are the &lt;code&gt;h1&lt;/code&gt; and &lt;code&gt;p&lt;/code&gt; elements. This has already increased our CSS more than is necessary, and will eventually lead to long selectors very long selectors (on bigger projects).&lt;/p&gt;
+&lt;p&gt;This is the sort of situation where &lt;code&gt;@extend&lt;/code&gt; may pose a problem or two, because &lt;strong&gt;extending an object will also extend every nested object&lt;/strong&gt;. As you can see, &lt;code&gt;widget&lt;/code&gt; doesn’t just share itself with &lt;code&gt;widget-alt&lt;/code&gt;, but also its descendants, which in this example are the &lt;code&gt;h1&lt;/code&gt; and &lt;code&gt;p&lt;/code&gt; elements. This has already increased our CSS more than is necessary, and will eventually lead to very long selectors (on bigger projects).&lt;/p&gt;
 
 &lt;p&gt;Now say for instance that we need to adjust the trailing margin of all &lt;code&gt;widget&lt;/code&gt; objects that are within the sidebar. But how are we going to target those widgets?&lt;/p&gt;
 
@@ -336,7 +336,7 @@ In order to get the correct styles, we would have to use both classes in our HTM
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you have an different view on anything I’ve said here, hit me up on &lt;a href=&quot;https://twitter.com/OliverJAsh&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you have an different view on anything I’ve said here, please do let me know over on &lt;a href=&quot;https://twitter.com/OliverJAsh&quot;&gt;Twitter&lt;/a&gt;. I’m incredibly critical of the methods I use in practice (like any front-end developer should be, really). All criticism is good.&lt;/p&gt;
 
       
       </description>

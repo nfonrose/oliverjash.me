@@ -201,7 +201,7 @@
 }
 </code></pre>
 
-<p>This is the sort of situation where <code>@extend</code> may pose a problem or two, because <strong>extending an object will also extend every nested object</strong>. As you can see, <code>widget</code> doesn’t just share itself with <code>widget-alt</code>, but also its descendants, which in this example are the <code>h1</code> and <code>p</code> elements. This has already increased our CSS more than is necessary, and will eventually lead to long selectors very long selectors (on bigger projects).</p>
+<p>This is the sort of situation where <code>@extend</code> may pose a problem or two, because <strong>extending an object will also extend every nested object</strong>. As you can see, <code>widget</code> doesn’t just share itself with <code>widget-alt</code>, but also its descendants, which in this example are the <code>h1</code> and <code>p</code> elements. This has already increased our CSS more than is necessary, and will eventually lead to very long selectors (on bigger projects).</p>
 
 <p>Now say for instance that we need to adjust the trailing margin of all <code>widget</code> objects that are within the sidebar. But how are we going to target those widgets?</p>
 
@@ -409,7 +409,7 @@ In order to get the correct styles, we would have to use both classes in our HTM
 }
 </code></pre>
 
-<p>If you have an different view on anything I’ve said here, hit me up on <a href="https://twitter.com/OliverJAsh">Twitter</a>.</p>
+<p>If you have an different view on anything I’ve said here, please do let me know over on <a href="https://twitter.com/OliverJAsh">Twitter</a>. I’m incredibly critical of the methods I use in practice (like any front-end developer should be, really). All criticism is good.</p>
 
     
 
