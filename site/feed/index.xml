@@ -13,7 +13,7 @@
     <atom:link href="http://oliverash.me/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>http://oliverash.me/</link>
     <description>Personal writing, work and photography</description>
-    <lastBuildDate>Sat, 08 Sep 2012 12:18:32 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 08 Sep 2012 12:20:12 +0100</lastBuildDate>
     <language>en</language>
     <copyright>Copyright Oliver Joseph Ash</copyright>
 
@@ -321,15 +321,7 @@ In order to get the correct styles, we would have to use both classes in our HTM
 
 &lt;p&gt;Alternatively, you may just add a class to your HTML, reducing the complexity of your CSS:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;/* SCSS */
-
-.island {
-  .island-title {
-    font-size: 20px;
-  }
-}
-
-/* CSS */
+&lt;pre&gt;&lt;code&gt;/* SCSS/CSS */
 
 .island-title {
   font-size: 20px;
