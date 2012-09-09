@@ -13,7 +13,7 @@
     <atom:link href="http://oliverash.me/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>http://oliverash.me/</link>
     <description>Personal writing, work and photography</description>
-    <lastBuildDate>Sat, 08 Sep 2012 12:20:12 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Sep 2012 12:57:12 +0100</lastBuildDate>
     <language>en</language>
     <copyright>Copyright Oliver Joseph Ash</copyright>
 
@@ -557,7 +557,7 @@ $type-set: 16px 320px, 16px 480px, 16px, 18px, 20px;
 }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;When called, this mixin will loop through my &lt;code&gt;$type-set&lt;/code&gt; list and run the golden ratio calculations through the &lt;a href=&quot;https://github.com/maxbeatty/goldentype&quot;&gt;Golden Ratio Typography plugin for Compass&lt;/a&gt;. For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called &lt;code&gt;type-system&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;When called, this mixin will loop through my &lt;code&gt;$type-set&lt;/code&gt; list and run the golden ratio calculations through the &lt;a href=&quot;https://github.com/maxbeatty/golden-type&quot;&gt;Golden Ratio Typography plugin for Compass&lt;/a&gt;. For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called &lt;code&gt;type-system&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// foundations/type-system
 

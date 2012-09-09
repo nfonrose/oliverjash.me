@@ -21,7 +21,7 @@
 }
 
 .post-content {
-  @extend %centered;
+  @include centered();
 
   h1 {
     text-align: center;
@@ -33,5 +33,13 @@
 
   p {
     text-align: justify;
+  }
+
+  img {
+    display: block;
+  }
+
+  @include breakpoint($breakpoint-2) {
+    text-align: left;
   }
 }

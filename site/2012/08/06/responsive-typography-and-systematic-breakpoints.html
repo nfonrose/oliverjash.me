@@ -160,7 +160,7 @@ $type-set: 16px 320px, 16px 480px, 16px, 18px, 20px;
 }
 </code></pre>
 
-<p>When called, this mixin will loop through my <code>$type-set</code> list and run the golden ratio calculations through the <a href="https://github.com/maxbeatty/goldentype">Golden Ratio Typography plugin for Compass</a>. For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called <code>type-system</code>.</p>
+<p>When called, this mixin will loop through my <code>$type-set</code> list and run the golden ratio calculations through the <a href="https://github.com/maxbeatty/golden-type">Golden Ratio Typography plugin for Compass</a>. For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called <code>type-system</code>.</p>
 
 <pre><code>// foundations/type-system
 

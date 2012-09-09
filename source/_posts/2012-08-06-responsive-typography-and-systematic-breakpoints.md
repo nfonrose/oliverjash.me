@@ -66,7 +66,7 @@ This two dimension list provides me with two options: font size and breakpoint. 
 
     }
 
-When called, this mixin will loop through my `$type-set` list and run the golden ratio calculations through the [Golden Ratio Typography plugin for Compass](https://github.com/maxbeatty/goldentype). For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called `type-system`.
+When called, this mixin will loop through my `$type-set` list and run the golden ratio calculations through the [Golden Ratio Typography plugin for Compass](https://github.com/maxbeatty/golden-type). For list items with a breakpoint, the optimal line height is calculated, whereas for those without breakpoints, optimal line height and content width is calculated. On each iteration, a media query is defined - the breakpoint for which is calculated based on the optimal content width. Inside of this media query I make a call to another mixin called `type-system`.
 
     // foundations/type-system
 
