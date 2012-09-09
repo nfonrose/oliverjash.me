@@ -6,7 +6,7 @@ scope
   /* Golden ratio, used for the modular scale */
   $ratio: 1.61803 / 1;
   /* Change the modular scale for smaller devices */
-  @if ($breakpoint <= 480px) {
+  @if ($breakpoint <= $breakpoint-2) {
     /* Perfect fifth */
     $ratio: 4 / 3;
   }
@@ -81,12 +81,14 @@ scope
       margin-bottom: $line-height;
     }
 
-    .img-left {
-      margin-right: $line-height;
-    }
+    @if ($breakpoint >= $breakpoint-2) {
+      .img-left {
+        margin-right: $line-height;
+      }
 
-    .img-right {
-      margin-left: $line-height;
+      .img-right {
+        margin-left: $line-height;
+      }
     }
   }
 }
