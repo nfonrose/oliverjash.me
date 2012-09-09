@@ -3,11 +3,11 @@
   text-align: center;
 
   li {
-    margin-right: 1em;
+    margin-left: 1em;
     font-weight: 600;
+    &:first-child {
+      margin-left: 0;
+    }
   }
 
-  .last {
-    margin-right: 0;
-  }
 }
