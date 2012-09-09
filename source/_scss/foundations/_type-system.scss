@@ -20,7 +20,8 @@ scope
   p,
   blockquote,
   ul,
-  ol {
+  ol,
+  pre {
     margin: {
       top: $line-height;
       bottom: $line-height;
@@ -71,7 +72,8 @@ scope
     }
 
     pre {
-      @include golden-text-adjusted(round($font-size * 0.8), $content-width - ($font-size * 2));
+      /* We don’t need margins, so use the inside method */
+      @include golden-text-adjusted-inside(round($font-size * 0.8), $content-width - ($font-size * 2));
       padding: $font-size;
     }
 

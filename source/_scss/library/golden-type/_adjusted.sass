@@ -46,3 +46,18 @@
     margin-top: $l
     margin-bottom: $l
     width: if($line-width == 0, golden-width-adjusted($f, $l), $line-width)
+
+=golden-text-adjusted-inside($font-size: 0, $line-width: 0)
+  @if $font-size == 0 and $line-width == 0
+    @warn "Need either a font size or content width to begin calculations"
+  @else
+    @if unitless($font-size)
+      $font-size: $font-size * $u
+    @if unitless($line-width)
+      $line-width: $line-width * $u
+    $u: golden-unit($font-size)
+    $f: if($font-size == 0, golden-size($line-width), $font-size)
+    $l: round(if($line-width == 0, golden-height($f), golden-height-adjusted($line-width, $f)))
+    font-size: $f
+    line-height: $l
+    width: if($line-width == 0, golden-width-adjusted($f, $l), $line-width)
