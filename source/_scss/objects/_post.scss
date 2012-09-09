@@ -33,13 +33,13 @@
 
   p {
     text-align: justify;
+
+    @include breakpoint($breakpoint-2) {
+      text-align: left;
+    }
   }
 
   img {
     display: block;
-  }
-
-  @include breakpoint($breakpoint-2) {
-    text-align: left;
   }
 }

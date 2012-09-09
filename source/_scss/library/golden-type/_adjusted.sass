@@ -40,7 +40,7 @@
       $line-width: $line-width * $u
     $u: golden-unit($font-size)
     $f: if($font-size == 0, golden-size($line-width), $font-size)
-    $l: if($line-width == 0, golden-height($f), golden-height-adjusted($line-width, $f))
+    $l: round(if($line-width == 0, golden-height($f), golden-height-adjusted($line-width, $f)))
     font-size: $f
     line-height: $l
     margin-top: $l
