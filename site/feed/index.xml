@@ -13,10 +13,70 @@
     <atom:link href="http://oliverash.me/feed/index.xml" rel="self" type="application/rss+xml" />
     <link>http://oliverash.me/</link>
     <description>Personal writing, work and photography</description>
-    <lastBuildDate>Mon, 17 Sep 2012 22:17:48 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 22 Sep 2012 22:20:30 +0100</lastBuildDate>
     <language>en</language>
     <copyright>Copyright Oliver Joseph Ash</copyright>
 
+    
+    <item>
+      <title>Big CSS – Harry Roberts at The Digital Barn 2012</title>
+      <link>http://oliverash.me/2012/09/22/big-css-harry-roberts-at-the-digital-barn-2012.html</link>
+      <pubDate>Sat, 22 Sep 2012 00:00:00 +0100</pubDate>
+      <guid>http://oliverash.me/2012/09/22/big-css-harry-roberts-at-the-digital-barn-2012</guid>
+      <description>
+      
+        &lt;p&gt;The Digital Barn was a fantastic single day conference held in Barnsley, catering for all web-types. As somebody who appreciates the challenge of writing scalable and maintainable code, I was most excited to hear what Harry Roberts had to say on the subject of CSS. In his talk &lt;a href=&quot;http://www.youtube.com/watch?v=R-BX4N8egEc&amp;amp;hd=1&quot;&gt;Big CSS&lt;/a&gt;, Harry re-establishes concepts such as &lt;a href=&quot;http://smacss.com/&quot;&gt;SMACSS&lt;/a&gt; and &lt;a href=&quot;http://oocss.org/&quot;&gt;OOCSS&lt;/a&gt;, and then walks us through the methods, tools and mindsets necessary for working on CSS in massive projects and as part of a team. Here’s what I took away from the talk. Harry has also recorded himself presenting this talk, which is &lt;a href=&quot;http://www.youtube.com/watch?v=R-BX4N8egEc&amp;amp;hd=1&quot;&gt;available online for your own viewing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Managing big CSS is all about managing the CSS developers, and making sure they’re writing the code in a sensible manner.&lt;/li&gt;
+&lt;li&gt;Strike a balance between the CSS and HTML if you’re going to keep it scalable.&lt;/li&gt;
+&lt;li&gt;Pre-processors don’t promote a good understanding of CSS at its root. A sound knowledge of CSS architecture is more use than a pre-processor.&lt;/li&gt;
+&lt;li&gt;Once a sound understanding of CSS architecture is acquired, that’s when you can start to use pre-processors to your advantage.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Components and Extensions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To write object-oriented, re-usable CSS, you have to look a level deeper into the design in order to spot patterns for abstraction – ‘a componentised web’.&lt;/li&gt;
+&lt;li&gt;An object is just a design pattern. You don’t really care &lt;em&gt;what&lt;/em&gt; it does in practice. That’s where extensions come in.&lt;/li&gt;
+&lt;li&gt;‘Extensions are much more specific’ – actual jobs. For example, an &lt;code&gt;nav&lt;/code&gt; object might have several extensions: &lt;code&gt;user-links&lt;/code&gt;, &lt;code&gt;breadcrumbs&lt;/code&gt;, &lt;code&gt;site-nav&lt;/code&gt;, &lt;code&gt;sponsor-logos&lt;/code&gt;, &lt;code&gt;footer-nav&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;The more discrete and versatile your components are, the more you can re-use them, and the easier it is to maintain your CSS.&lt;/li&gt;
+&lt;li&gt;Abstractions come free-of-charge – they are already there and free to use over and over and over…&lt;/li&gt;
+&lt;li&gt;When measuring impact to a codebase, look out for bespoke CSS. Only ever measure bespoke code (extensions).&lt;/li&gt;
+&lt;li&gt;The ‘things’ that make up a design component are probably going to be re-used.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Abstraction Examples&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ui-list&lt;/code&gt; – A blocky list: generic list, any type of content&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt; – Sprite&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ico-text&lt;/code&gt; – Icons with text: sports spacing/alignment, any icon, any text&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Code Organisation and Maintainability&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.impressivewebs.com/css-specificity-irrelevant/&quot;&gt;What if specificity didn’t exist?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Write rulesets in a subsequent order to take advantage of the cascade (in place of specificity).&lt;/li&gt;
+&lt;li&gt;Subsequent rulesets should only ever inherit, never undo. If you’re undoing CSS down the stylesheet, you’re probably doing it wrong.&lt;/li&gt;
+&lt;li&gt;Pre-processors advertise nesting as a feature. Nesting can be useful, but to sell is as a feature is very dangerous. Nesting descendants in selectors increases specificity and limits portability.&lt;/li&gt;
+&lt;li&gt;Avoid chaining selectors. Rather, use a chained class name or a ‘modifier’ (i.e. &lt;code&gt;.error-msg&lt;/code&gt; instead of &lt;code&gt;.error.msg&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Indenting rulesets is good because you can see the skeleton of a component easily, without referring to the HTML. It gives the next developer a lot of information at a glance.&lt;/li&gt;
+&lt;li&gt;‘Quasi-qualified selectors’ – we shouldn’t chain classes with element selectors for specificity reasons, but it is useful. By qualifying the selector and commenting it out, we give the next developer a lot more information, without increasing specificity (i.e. &lt;code&gt;/*html*/.product-page&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;If you’re not using partials (pre-processors), use a table of contents instead.&lt;/li&gt;
+&lt;li&gt;What if the next developer needs to make a new component? By commenting our CSS with tags, the developer can easily find existing styles that do similar jobs, which he/she may be able to re-use (i.e. ‘lists’, ‘tables’ or ‘layout’).&lt;/li&gt;
+&lt;li&gt;Messy CSS is not a fault of the language. Rather, it’s a fault in the developers on the team. You need to make sure your team are all brought in to your way of working.&lt;/li&gt;
+&lt;li&gt;People do want to do a good job, so talk to people – manage your team as well as your codebase.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+      
+      </description>
+    </item>
     
     <item>
       <title>Methods for Modifying Objects in OOCSS</title>

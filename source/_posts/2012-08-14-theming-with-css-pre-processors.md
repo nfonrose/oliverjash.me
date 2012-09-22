@@ -1,7 +1,7 @@
 ---
 tags: ['Promoted']
 layout: post
-title: Theming with CSS<span class="b1-break b2-unbreak"> Pre-processors
+title: Theming with CSS<span class="b1-break b2-unbreak"> Pre-processors</span>
 ---
 
 {% excerpt %}
