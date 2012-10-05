@@ -1,5 +1,6 @@
 source :rubygems
 
+gem "compass"
 gem "jekyll"
 
 gem "html_press"
