@@ -1,277 +1,76 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Theming with CSS Pre-processors - Oliver Joseph Ash</title>
-    <meta name="description" content="Personal writing, work and photography. The personal homepage of Oliver Joseph Ash.">
-    <link rel="stylesheet" href="/css/base.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/index.xml">
-    <link rel="author" href="http://twitter.com/OliverJAsh">
-    <script src="/js/modernizr-2.6.1.min.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/qtb5goz.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-    <div class="l-container">
-      <header class="l-header island">
-        <hgroup>
-          <h1 class="l-header-logo h4">
-            <a href="/index.html">Oliver Joseph Ash</a>
-          </h1>
-        </hgroup>
-        <nav>
-  <h1>Navigation</h1>
-  <ul class="nav-list">
-    
-      
-      
-    
-      
-      
-        <li>
-          <a href="/about/index.html">About</a>
-        </li>
-      
-    
-      
-      
-        <li>
-          <a href="/blog/index.html">Blog</a>
-        </li>
-      
-    
-      
-      
-        <li>
-          <a href="/archive/index.html">Archive</a>
-        </li>
-      
-    
-  </ul>
-</nav>
-
-      </header>
-      
-
-  
-
-
-
-
-
-
-<article class="post">
-
-  
-    
-    
-    
-  
-
-  <div class="post-content island">
-
-    <header>
-      
-        <h1>Theming with CSS<span class="b1-break b2-unbreak"> Pre-processors</span></h1>
-      
-
-      <p class="post-time"><a href="
-  /2012/08/14/theming-with-css-pre-processors.html
-"><time>August 14, 2012</time></a></p>
-    </header>
-
-    
-      <p>One thing that CSS Pre-processors really help with is maintaining large colour schemes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS pre-processors can help a great deal with swapping out that lick of paint with a new one.</p>
-
-<p>In a recent project I was confronted with a design that used a primary colour simply for text and borders. The design demonstrated that different sections of the website would have the same layout, but a different primary colour for its text and borders.</p>
-
-<pre><code>.articles-list {
+<!DOCTYPE html><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]--><!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]--><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"><title>Theming with CSS Pre-processors - Oliver Joseph Ash</title><meta name="description" content="Personal writing, work and photography. The personal homepage of Oliver Joseph Ash."><link rel="stylesheet" href="/css/base.css"><link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed/index.xml"><link rel="author" href="http://twitter.com/OliverJAsh"> <script src="/js/modernizr-2.6.1.min.js"></script><script src="//use.typekit.net/qtb5goz.js"></script><script>try{Typekit.load()}catch(e){}</script></head><body><div class="l-container"> <header class="l-header island"> <hgroup><h1 class="l-header-logo h4"> <a href="/index.html">Oliver Joseph Ash</a></h1> </hgroup> <nav><h1>Navigation</h1><ul class="nav-list"><li> <a href="/about/index.html">About</a></li><li> <a href="/blog/index.html">Blog</a></li><li> <a href="/archive/index.html">Archive</a></li></ul> </nav></header><article class="post"><div class="post-content island"><header><h1>Theming with CSS<span class="b1-break b2-unbreak"> Pre-processors</span></h1><p class="post-time"><a href="
+/2012/08/14/theming-with-css-pre-processors.html
+"><time>August 14, 2012</time></a></p> </header><p>One thing that CSS Pre-processors really help with is maintaining large colour schemes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS pre-processors can help a great deal with swapping out that lick of paint with a new one.</p><p>In a recent project I was confronted with a design that used a primary colour simply for text and borders. The design demonstrated that different sections of the website would have the same layout, but a different primary colour for its text and borders.</p><pre><code>.articles-list {
   border-bottom: 1px solid blue;
 }
-
 .articles-list .article-title {
   color: blue;
 }
-</code></pre>
-
-<p>I’m sure we all know that pre-processors can improve the situation here with variables.</p>
-
-<pre><code>$primary-colour: blue;
-
+</code></pre><p>I’m sure we all know that pre-processors can improve the situation here with variables.</p><pre><code>$primary-colour: blue;
 .articles-list {
   border-bottom: 1px solid $primary-colour;
 }
-
 .articles-list .article-title {
   color: $primary-colour;
 }
-</code></pre>
-
-<p>I can theme the website by using a <code>body</code> class to specify the active theme.</p>
-
-<pre><code>/*body*/.default {
+</code></pre><p>I can theme the website by using a <code>body</code> class to specify the active theme.</p><pre><code>/*body*/.default {
   $primary-colour: blue;
-
   .articles-list {
     border-bottom: 1px solid $primary-colour;
   }
-
   .articles-list .article-title {
     color: $primary-colour;
   }
 }
-
 /*body*/.sports {
   $primary-colour: green;
-
   .articles-list {
     border-bottom: 1px solid $primary-colour;
   }
-
   .articles-list .article-title {
     color: $primary-colour;
   }
 }
-</code></pre>
-
-<p>This is powerful because, simply by changing the class on the <code>body</code> element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using <code>$primary-colour</code> to change with the body class, pre-processors aren’t clever enough to automatically generate my CSS.</p>
-
-<pre><code>$primary-colour: blue;
-
+</code></pre><p>This is powerful because, simply by changing the class on the <code>body</code> element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using <code>$primary-colour</code> to change with the body class, pre-processors aren’t clever enough to automatically generate my CSS.</p><pre><code>$primary-colour: blue;
 /*body*/.sports {
   $primary-colour: green;
 }
-
 .articles-list {
   border-bottom: 1px solid $primary-colour;
 }
-
 .articles-list .article-title {
   color: $primary-colour;
 }
-</code></pre>
-
-<p>Because of this, the compiled CSS would only provide styles for the default theme.</p>
-
-<pre><code>.articles-list {
+</code></pre><p>Because of this, the compiled CSS would only provide styles for the default theme.</p><pre><code>.articles-list {
   border-bottom: 1px solid blue;
 }
-
 .articles-list .article-title {
   color: blue;
 }
-</code></pre>
-
-<p>A clever way of achieving what we want here is to use the <a href="http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/"><code>@extend</code></a> method which is available in most pre-processors (Sass and Stylus at the time of writing) alongside <a href="http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand">parent selectors</a>.</p>
-
-<pre><code>$default-primary-color: blue;
+</code></pre><p>A clever way of achieving what we want here is to use the <a href="http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/"><code>@extend</code></a> method which is available in most pre-processors (Sass and Stylus at the time of writing) alongside <a href="http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand">parent selectors</a>.</p><pre><code>$default-primary-color: blue;
 $sports-primary-color: green;
-
 %brand-border-colour {
   .default &amp; {
     border-color: $default-primary-colour;
   }
-
   .sports &amp; {
     border-color: $sports-primary-colour;
   }
 }
-
 %brand-colour {
   .default &amp; {
     color: $default-primary-colour;
   }
-
   .sports &amp; {
     color: $sports-primary-colour;
   }
 }
-
 .articles-list {
   @extend %brand-border-colour;
   border-width: 1px;
   border-style: solid;
 }
-
 .articles-list .article-title {
   @extend %brand-colour;
 }
-</code></pre>
-
-<p>This way we get to keep all of our colour styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS pre-processors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.</p>
-
-    
-
-  </div>
-
-</article>
-
-      <footer class="l-footer island">
-        
-        
-        <nav>
-  <h1>Navigation</h1>
-  <ul class="nav-list">
-    
-      
-      
-        <li>
-          <a href="/index.html">Home</a>
-        </li>
-      
-    
-      
-      
-        <li>
-          <a href="/about/index.html">About</a>
-        </li>
-      
-    
-      
-      
-        <li>
-          <a href="/blog/index.html">Blog</a>
-        </li>
-      
-    
-      
-      
-        <li>
-          <a href="/archive/index.html">Archive</a>
-        </li>
-      
-    
-  </ul>
-</nav>
-
-      </footer>
-    </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
-    <script>
-      var _gaq=[['_setAccount','UA-29838483-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-    <script>
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '506ece0bf5a1f50573000013');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
-  </body>
-</html>
+</code></pre><p>This way we get to keep all of our colour styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS pre-processors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.</p></div></article><footer class="l-footer island"> <nav><h1>Navigation</h1><ul class="nav-list"><li> <a href="/index.html">Home</a></li><li> <a href="/about/index.html">About</a></li><li> <a href="/blog/index.html">Blog</a></li><li> <a href="/archive/index.html">Archive</a></li></ul> </nav></footer></div> <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><script>window.jQuery||document.write('<script src="/js/vendor/jquery-1.7.2.min.js"></script>')</script><script>var _gaq=[["_setAccount","UA-29838483-1"],["_trackPageview"]];(function(e,t){var n=e.createElement(t),r=e.getElementsByTagName(t)[0];n.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js",r.parentNode.insertBefore(n,r)})(document,"script")</script><script>var _gauges=_gauges||[];(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.id="gauges-tracker",e.setAttribute("data-site-id","506ece0bf5a1f50573000013"),e.src="//secure.gaug.es/track.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()</script></body></html>
