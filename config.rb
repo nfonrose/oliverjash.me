@@ -26,3 +26,9 @@ color_output = false
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass scss scss && rm -rf sass && mv scss sass
+
+environment = :development
+
+if environment != :production
+  sass_options = {:debug_info => true}
+end
