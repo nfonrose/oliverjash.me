@@ -1,6 +1,5 @@
 source: .
 destination: ../site
-auto: true
 markdown: rdiscount
 future: false
 paginate: 5
