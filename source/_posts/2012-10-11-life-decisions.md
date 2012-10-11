@@ -8,7 +8,7 @@ title: Life Decisions
 Many people branch into a career from an experience they have as a kid. Those experiences are moments of tremendous value, in that they can influence what we may spend a great majority of our lives pursuing.
 
 At university, something I increasingly note is people who still don’t know what it is they want to do for a ‘career’. I also see a lot of the same people grounding their time at university on social bases. In other words, people who attend university to “have fun”, rather than attending with a profession in mind.
-{% end excerpt %}
+{% endexcerpt %}
 
 Students who I work alongside or of a similar discipline (multimedia) will probably attest to this more so than others from traditional subject backgrounds. New Media as an industry is young, and consequently everything about the education in this field is far from developed or properly understood. A lot of people seem to have fallen back onto this course, failing to find a more routinised job path, or just because of pure uncertainty.
 
@@ -24,7 +24,7 @@ To better prepare people for opportunities, I believe children need to be taught
 
 The biggest influence for my own autonomy is reading online. I cherish every single tweet, because I know that inside of that link, there could be a gem.
 
-30 minutes of reading online – be it a blog post or a WikiPedia article – can change a lot of things, just like all those stories where a childhood fascination develops into something life enduring. I haven’t uttered the words “I’m bored” since I realised this. Just as any geek will probably tell you, [life gets more exciting with age](http://www.smbc-comics.com/index.php?db=comics&id=2436).
+30 minutes of reading online – be it a blog post or a Wikipedia article – can change a lot of things, just like all those stories where a childhood fascination develops into something life enduring. I haven’t uttered the words “I’m bored” since I realised this. Just as any geek will probably tell you, [life gets more exciting with age](http://www.smbc-comics.com/index.php?db=comics&id=2436).
 
 You’ll likely hear me speak bad words about the tuition I’ve received at university, but I speak nothing but good words for my time spent there on the whole. For me, university has been a pass to freedom. When I look at the routinised jobs people are studying towards, I’m thankful that my course is so broad and open-ended. It’s opened up my mind magnificently. Through light-touch management, I’ve learned how to think, not what to think – just at a hefty price.
 
