@@ -1,1 +1,5 @@
-<?php `git pull`;
+<?php
+
+$pull = `git pull`;
+
+echo $pull;
