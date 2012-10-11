@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
-require 'modular-scale'
-require 'breakpoint'
+require "modular-scale"
+require "breakpoint"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
