@@ -16,8 +16,4 @@ Thumbs.db
 .cache
 
 # Static site output
-_site
-
-*.app
-*.sublime-project
-*.sublime-workspace
+site
