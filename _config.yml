@@ -1,4 +1,5 @@
-source: .
+source: ./source
+plugins: ./source/_plugins
 destination: ../site
 markdown: rdiscount
 future: false
