@@ -11,8 +11,8 @@ navigation:
 - text: Home
   url: /index.html
 - text: About
-  url: /about/index.html
+  url: /about.html
 - text: Blog
   url: /blog/index.html
 - text: Archive
-  url: /archive/index.html
+  url: /archive.html
