@@ -1,5 +1,5 @@
 # Author note: found at https://gist.github.com/1682165
-
+#
 # Patches Jekyll's built-in pagination to work with files *other* than the base index.html.
 # Expects the following to be specified in your _config.yml:
 #
