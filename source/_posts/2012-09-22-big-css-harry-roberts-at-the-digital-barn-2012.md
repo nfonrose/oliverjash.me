@@ -10,8 +10,8 @@ The Digital Barn was a fantastic single day conference held in Barnsley, caterin
 
 * Managing big CSS is all about managing the CSS developers, and making sure they’re writing the code in a sensible manner.
 * Strike a balance between the CSS and HTML if you’re going to keep it scalable.
-* Pre-processors don’t promote a good understanding of CSS at its root. A sound knowledge of CSS architecture is more use than a pre-processor.
-* Once a sound understanding of CSS architecture is acquired, that’s when you can start to use pre-processors to your advantage.
+* Preprocessors don’t promote a good understanding of CSS at its root. A sound knowledge of CSS architecture is more use than a preprocessor.
+* Once a sound understanding of CSS architecture is acquired, that’s when you can start to use preprocessors to your advantage.
 
 ## Components and Extensions
 
@@ -33,11 +33,11 @@ The Digital Barn was a fantastic single day conference held in Barnsley, caterin
 * [What if specificity didn’t exist?](http://www.impressivewebs.com/css-specificity-irrelevant/)
 * Write rulesets in a subsequent order to take advantage of the cascade (in place of specificity).
 * Subsequent rulesets should only ever inherit, never undo. If you’re undoing CSS down the stylesheet, you’re probably doing it wrong.
-* Pre-processors advertise nesting as a feature. Nesting can be useful, but to sell it as a feature is very dangerous. Nesting descendants increases specificity and limits portability.
+* Preprocessors advertise nesting as a feature. Nesting can be useful, but to sell it as a feature is very dangerous. Nesting descendants increases specificity and limits portability.
 * Avoid chaining selectors. Rather, use a chained class name or a ‘modifier’ (i.e. `.error-msg` instead of `.error.msg`).
 * Indenting rulesets is good because you can see the skeleton of a component easily, without referring to the HTML. It gives the next developer a lot of information at a glance.
 * ‘Quasi-qualified selectors’ – we shouldn’t chain classes with element selectors for specificity reasons, but it is useful. By qualifying the selector and commenting it out, we give the next developer a lot more information, without increasing specificity (i.e. `/*html*/.product-page`)
-* If you’re not using partials (pre-processors), use a table of contents instead.
+* If you’re not using partials (preprocessors), use a table of contents instead.
 * What if the next developer needs to make a new component? By commenting our CSS with tags, the developer can easily find existing styles that do similar jobs, which he/she may be able to re-use (i.e. ‘lists’, ‘tables’ or ‘layout’).
 * Messy CSS is not a fault of the language. Rather, it’s a fault in the developers on the team. You need to make sure your team are all brought in to your way of working.
 * People do want to do a good job, so talk to people – manage your team as well as your codebase.

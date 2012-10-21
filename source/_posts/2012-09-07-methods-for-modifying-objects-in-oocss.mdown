@@ -38,7 +38,7 @@ Our new `widget-alt` object (short for alternative widget) has a border, but dup
       border: 1px solid #ccc;
     }
 
-## With Pre-processors - Extending
+## With Preprocessors - Extending
 
 For the benefit of the organisation of our CSS, it’s not always practical to extend selectors manually like this just so that our objects can share properties. Imagine you had many sorts of widget – each time you’re going to have to go back to your handcrafted group selector and extend it. Not with some [`@extend` magic]().
 
@@ -52,7 +52,7 @@ For the benefit of the organisation of our CSS, it’s not always practical to e
       border: 1px solid #ccc;
     }
 
-Seriously, if you’re writing OOCSS, CSS pre-processors and this method in particular are a no brainer. This simple use of `@extend` will produce exactly the same CSS as we had before – it’s just easier for us to maintain this way, as the project grows.
+Seriously, if you’re writing OOCSS, CSS preprocessors and this method in particular are a no brainer. This simple use of `@extend` will produce exactly the same CSS as we had before – it’s just easier for us to maintain this way, as the project grows.
 
 ### The Problem with Extend
 
@@ -68,7 +68,7 @@ Look at this extended example of the `widget` object, which now styles some of i
       }
 
       p {
-        /* Handy tip, pre-processors will convert any CSS3 `hsl` value to `rgb`. `hsl` is much easier on the mind, and therefore easier to adjust colours. Another reason why I love pre-processors. */
+        /* Handy tip, preprocessors will convert any CSS3 `hsl` value to `rgb`. `hsl` is much easier on the mind, and therefore easier to adjust colours. Another reason why I love preprocessors. */
         color: hsl(0, 0%, 10%);
       }
     }

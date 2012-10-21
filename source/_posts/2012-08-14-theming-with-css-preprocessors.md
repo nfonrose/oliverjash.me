@@ -1,11 +1,11 @@
 ---
 tags: ['Promoted']
 layout: post
-title: Theming with CSS<span class="b1-break b2-unbreak"> Pre-processors</span>
+title: Theming with CSS<span class="b1-break b2-unbreak"> Preprocessors</span>
 ---
 
 {% excerpt %}
-One thing that CSS Pre-processors really help with is maintaining large colour schemes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS pre-processors can help a great deal with swapping out that lick of paint with a new one.
+One thing that CSS preprocessors really help with is maintaining large colour schemes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS preprocessors can help a great deal with swapping out that lick of paint with a new one.
 
 In a recent project I was confronted with a design that used a primary colour simply for text and borders. The design demonstrated that different sections of the website would have the same layout, but a different primary colour for its text and borders.
 {% endexcerpt %}
@@ -18,7 +18,7 @@ In a recent project I was confronted with a design that used a primary colour si
       color: blue;
     }
 
-I’m sure we all know that pre-processors can improve the situation here with variables.
+I’m sure we all know that preprocessors can improve the situation here with variables.
 
 
     $primary-colour: blue;
@@ -58,7 +58,7 @@ I can theme the website by using a `body` class to specify the active theme.
       }
     }
 
-This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, pre-processors aren’t clever enough to automatically generate my CSS.
+This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, preprocessors aren’t clever enough to automatically generate my CSS.
 
     $primary-colour: blue;
 
@@ -84,7 +84,7 @@ Because of this, the compiled CSS would only provide styles for the default them
       color: blue;
     }
 
-A clever way of achieving what we want here is to use the [`@extend`](http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/) method which is available in most pre-processors (Sass and Stylus at the time of writing) alongside [parent selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand).
+A clever way of achieving what we want here is to use the [`@extend`](http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/) method which is available in most preprocessors (Sass and Stylus at the time of writing) alongside [parent selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand).
 
     $default-primary-color: blue;
     $sports-primary-color: green;
@@ -119,4 +119,4 @@ A clever way of achieving what we want here is to use the [`@extend`](http://des
       @extend %brand-colour;
     }
 
-This way we get to keep all of our colour styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS pre-processors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.
+This way we get to keep all of our colour styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS preprocessors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.
