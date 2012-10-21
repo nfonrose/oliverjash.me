@@ -22,7 +22,7 @@ GEM
       multi_json (~> 1.0)
     fast-stemmer (1.0.1)
     fssm (0.2.9)
-    html_press (0.7.1)
+    html_press (0.7.2)
       css_press (>= 0.3.2)
       htmlentities
       uglifier
