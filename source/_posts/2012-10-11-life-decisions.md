@@ -18,7 +18,7 @@ From a very young age, school has us narrowing the choice of career paths, at wh
 
 I believe the reason why people are uncertain is because of the transition that is happening from a capitalist-driven labour market towards a society with [more opportunities and less jobs](http://francispedraza.com/who-wants-a-job). The education system is beginning to fall over. Careers are a 19th century invention.
 
-## Encouraging Autodictactism
+## Encouraging Autodidactism
 
 To better prepare people for opportunities, I believe children need to be taught how to think, not what to think.
 
