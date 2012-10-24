@@ -175,7 +175,7 @@ It would be much more efficient if we could target all kinds of widget with a si
       border: 1px solid rgb(230, 230, 230);
     }
 
-    In order to get the correct styles, we would have to use both classes in our HTML.
+In order to get the correct styles, we would have to use both classes in our HTML.
 
     /* HTML */
     <div class="widget widget-alt">
