@@ -38,7 +38,7 @@ Our new `widget-alt` object (short for alternative widget) has a border, but dup
       border: 1px solid #ccc;
     }
 
-## With Preprocessors - Extending
+## With Preprocessors – Extending
 
 For the benefit of the organisation of our CSS, it’s not always practical to extend selectors manually like this just so that our objects can share properties. Imagine you had many sorts of widget – each time you’re going to have to go back to your handcrafted group selector and extend it. Not with some [`@extend` magic](http://sass-lang.com/).
 
