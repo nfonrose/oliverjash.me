@@ -15,32 +15,43 @@ a {
   }
 }
 
-// Double stranded heading hierachy
-// http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+/*
+Double stranded heading hierachy as per
+http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+*/
+
+/* Default font weight for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
 
 h1,
 h2 {
   @extend %primary-heading-font-stack;
-  font-weight: 600;
-}
-
-h3,
-h4 {
-  @extend %secondary-heading-font-stack;
-  letter-spacing: 2px;
-  font-weight: 400;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  // Normalise the font-size of the logo
+  /* Normalises the font-size of the logo */
   font-size: 100%;
+}
+
+h3,
+h4 {
+  @extend %secondary-heading-font-stack;
+  letter-spacing: 2px;
 }
 
 h3 {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 h4 {

@@ -553,22 +553,27 @@ a:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000322}}
+/*
+Double stranded heading hierachy as per
+http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+*/
+/* Default font weight for headings */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000329}}
 h1, .h1,
 h2,
-.h2 {
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   font-weight: 600;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000328}}
-h3, .h3,
-h4,
-.h4 {
-  letter-spacing: 2px;
-  font-weight: 400;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000341}}
 h3, .h3,
 h4,
 .h4,
@@ -576,15 +581,24 @@ h5,
 .h5,
 h6,
 .h6 {
+  /* Normalises the font-size of the logo */
   font-size: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000342}}
-h3, .h3 {
-  text-transform: uppercase;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000347}}
+h3, .h3,
+h4,
+.h4 {
+  letter-spacing: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000352}}
+h3, .h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000357}}
 h4, .h4 {
   text-transform: lowercase;
 }
@@ -1314,7 +1328,7 @@ pre {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000345}}
 blockquote {
   /*
-  At b1 and above, the blockquote has its own content width, so we center it
+  At b1 and above, the blockquote has its own content width, so we centre it
   */
   margin-left: auto;
   margin-right: auto;
@@ -1333,17 +1347,17 @@ blockquote {
 .l-header a {
   color: white;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000365}}
-.l-header-logo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000364}}
+.l-header h1, .l-header .h1 {
   text-align: center;
+  font-weight: 500;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000369}}
-.l-header-logo a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000370}}
+.l-header a:hover {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000378}}
 .l-footer,
 .l-footer a {
   color: gray;

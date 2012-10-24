@@ -44,7 +44,7 @@ pre {
 
 blockquote {
   /*
-  At b1 and above, the blockquote has its own content width, so we center it
+  At b1 and above, the blockquote has its own content width, so we centre it
   */
   @include centered();
   font-style: italic;
@@ -60,10 +60,11 @@ blockquote {
   a {
     color: white;
   }
-}
 
-.l-header-logo {
-  text-align: center;
+  h1 {
+    text-align: center;
+    font-weight: 500;
+  }
 
   a {
     &:hover {
