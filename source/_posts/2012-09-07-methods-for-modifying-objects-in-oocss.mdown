@@ -1,11 +1,11 @@
 ---
 tags: ['Promoted']
 layout: post
-title: Methods for Modifying<span class="b1-break"> Objects in OOCSS</span>
+title: Methods for Modifying<span class="b1-break"> Objects in OOCSS</span> (Extends&#58; A Fools Gold)
 ---
 
 {% excerpt %}
-There are two ways of implementing object modifiers in CSS: extending objects in the CSS, or deferring the work to your HTML and concatenating classes there instead. In this article, I introduce the purpose of a modifier in OOCSS, and then I investigate the advantages and disadvantages of using both methods.
+There are two ways of implementing object modifiers in CSS: extending objects in the CSS, or deferring the work to your HTML and concatenating classes there instead. In this article, I introduce the purpose of a modifier in OOCSS, and then I investigate the advantages and disadvantages of using both methods, as well as claims that `@extend`s can [sometimes be a fools gold](https://twitter.com/csswizardry/status/261056433607569409).
 {% endexcerpt %}
 
 ## What is a Modifier?
