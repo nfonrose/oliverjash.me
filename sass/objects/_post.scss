@@ -7,25 +7,27 @@
     border-bottom: 0;
   }
 
-  .post-image {
-    display: block;
-    width: 100%;
-  }
-
+  /*  Increase score to beat `.post-content p` */
   .post-time,
   .post-excerpt-permalink {
-    @extend .centered-text, %primary-heading-font-stack;
+    @extend %primary-heading-font-stack;
+    text-align: center;
     font-style: italic;
     font-weight: 700;
   }
 }
 
+.post-image {
+  display: block;
+  width: 100%;
+}
+
+.post-title {
+  text-align: center;
+}
+
 .post-content {
   @include centered();
-
-  h1 {
-    text-align: center;
-  }
 
   img {
     max-width: 100%;

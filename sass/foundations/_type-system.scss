@@ -48,6 +48,15 @@ scope
     };
   }
 
+  /*
+  Okay. I go a bit crazy and also calculate the optimal line height for
+  headings, because they have different font sizes but share the same
+  content width. Thus, the optimal line height will be different.
+  */
+  .post-title {
+    @include golden-text-adjusted(modular-scale(2, $font-size, $ratio), $content-width);
+  }
+
   .post-content {
     width: $content-width;
     margin: {
@@ -59,16 +68,8 @@ scope
     Modular scale typography as per
     https:/*github.com/scottkellum/modular-scale/
     */
-    /*
-    Okay. I go a bit crazy and also calculate the optimal line height for
-    headings, because they have different font sizes but share the same
-    content width. Thus, the optimal line height will be different.
-    */
-    h1 {
-      @include golden-text-adjusted(modular-scale(2, $font-size, $ratio), $content-width);
-    }
 
-    h2 {
+    > h2 {
       @include golden-text-adjusted(modular-scale(1, $font-size, $ratio), $content-width);
     }
 
@@ -82,6 +83,10 @@ scope
       margin-bottom: $line-height;
     }
 
+    /*
+    The `img` objects only need to have margin surrounding them at larger
+    breakpoints.
+     */
     @if ($breakpoint >= $breakpoint-2) {
       .img-left {
         margin-right: $line-height;

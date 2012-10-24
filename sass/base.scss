@@ -11,8 +11,8 @@
 
 @import "foundations/reset";
 @import "foundations/normalise";
-@import "foundations/typography";
 @import "foundations/type-system";
+@import "foundations/typography";
 
 @import "objects/nav-list";
 @import "objects/archived-posts-list";
@@ -20,6 +20,10 @@
 @import "objects/img";
 
 @include type-set();
+
+.hidden {
+  display: none;
+}
 
 body {
   min-width: 320px;

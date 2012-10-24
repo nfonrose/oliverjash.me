@@ -29,7 +29,7 @@
 
     <header>
       {% if post.layout == 'post' or page.title == post.title %}
-        <h1>{{ post.title }}</h1>
+        <h1 class="post-title">{{ post.title }}</h1>
       {% endif %}
 
       <p class="post-time"><a href="{{ url }}"><time>{{ post.date | date: "%B %e, %Y" }}</time></a></p>
