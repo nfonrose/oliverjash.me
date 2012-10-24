@@ -633,40 +633,39 @@ h4, .h4 {
 .post .post-excerpt-permalink {
   text-align: center;
   font-style: italic;
-  font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000319}}
 .post-image {
   display: block;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000324}}
 .post-title {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000328}}
 .post-content {
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000331}}
 .post-content img {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000335}}
 .post-content p {
   text-align: justify;
 }
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000335}}
   .post-content p {
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000343}}
 .post-content img {
   display: block;
 }
