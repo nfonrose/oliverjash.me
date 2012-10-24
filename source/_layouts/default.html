@@ -16,19 +16,6 @@
     <script src="/js/modernizr-2.6.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/qtb5goz.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script type="text/javascript">
-      (function(){
-        var config = {
-          locale: "uk",
-          bandwidthDetect: true,
-          resrcOnLoad: true,
-          resrcOnResize: true,
-          resrcOnPinch: true,
-          resrcOnDoubleTap: true
-        }
-        var c=!1,a=document.createElement("script");a.src="//www.resrc.it/resrc.js";a.type="text/javascript";a.async="true";a.onload=a.onreadystatechange=function(){var a=this.readyState;if(!(c||a&&"complete"!=a&&"loaded"!=a)){c=!0;try{resrc.load(config)}catch(b){}}};var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)
-      })();
-    </script>
   </head>
   <body>
     <div class="l-container">
@@ -67,6 +54,19 @@
         {% include nav-list.html %}
       </footer>
     </div>
+    <script type="text/javascript">
+      (function(){
+        var config = {
+          locale: "uk",
+          bandwidthDetect: true,
+          resrcOnLoad: true,
+          resrcOnResize: true,
+          resrcOnPinch: true,
+          resrcOnDoubleTap: true
+        }
+        var c=!1,a=document.createElement("script");a.src="//www.resrc.it/resrc.js";a.type="text/javascript";a.async="true";a.onload=a.onreadystatechange=function(){var a=this.readyState;if(!(c||a&&"complete"!=a&&"loaded"!=a)){c=!0;try{resrc.load(config)}catch(b){}}};var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)
+      })();
+    </script>
     <script>
       var _gaq=[['_setAccount','UA-29838483-1'],['_trackPageview']];
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
