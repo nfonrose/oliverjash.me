@@ -95,6 +95,11 @@ scope
       .img-right {
         margin-left: $line-height;
       }
+
+      blockquote {
+        /* We don’t need margins, so use the inside method */
+        @include golden-text-adjusted-inside($font-size, $content-width - ($font-size * 4));
+      }
     }
   }
 }

@@ -914,6 +914,13 @@ https:/*github.com/scottkellum/modular-scale/
   .post-content .img-right {
     margin-left: 24px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+  .post-content blockquote {
+    /* We don’t need margins, so use the inside method */
+    font-size: 16px;
+    line-height: 23px;
+    width: 312px;
+  }
 }
 /* Variables hoisted to the top */
 /* Support mobile by default, with no media query */
@@ -1028,6 +1035,13 @@ https:/*github.com/scottkellum/modular-scale/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
   .post-content .img-right {
     margin-left: 26px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+  .post-content blockquote {
+    /* We don’t need margins, so use the inside method */
+    font-size: 16px;
+    line-height: 26px;
+    width: 621px;
   }
 }
 /* Variables hoisted to the top */
@@ -1144,6 +1158,13 @@ https:/*github.com/scottkellum/modular-scale/
   .post-content .img-right {
     margin-left: 29px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+  .post-content blockquote {
+    /* We don’t need margins, so use the inside method */
+    font-size: 18px;
+    line-height: 29px;
+    width: 757px;
+  }
 }
 /* Variables hoisted to the top */
 /* Support mobile by default, with no media query */
@@ -1259,6 +1280,13 @@ https:/*github.com/scottkellum/modular-scale/
   .post-content .img-right {
     margin-left: 32px;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+  .post-content blockquote {
+    /* We don’t need margins, so use the inside method */
+    font-size: 20px;
+    line-height: 32px;
+    width: 906px;
+  }
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000324}}
 .hidden {
@@ -1284,27 +1312,38 @@ pre {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000345}}
+blockquote {
+  /*
+  At b1 and above, the blockquote has its own content width, so we center it
+  */
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  color: #666666;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000354}}
 .l-container {
   margin-left: auto;
   margin-right: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000360}}
 .l-header,
 .l-header a {
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000365}}
 .l-header-logo {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000369}}
 .l-header-logo a:hover {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000377}}
 .l-footer,
 .l-footer a {
   color: gray;

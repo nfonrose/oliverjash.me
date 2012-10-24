@@ -42,6 +42,15 @@ pre {
   border: 1px solid hsl(0, 0%, 90%);
 }
 
+blockquote {
+  /*
+  At b1 and above, the blockquote has its own content width, so we center it
+  */
+  @include centered();
+  font-style: italic;
+  color: hsl(0, 0%, 40%);
+}
+
 .l-container {
   @include centered();
 }
