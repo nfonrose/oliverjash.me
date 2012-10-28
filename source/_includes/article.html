@@ -5,7 +5,7 @@
   {% assign post = page %}
 {% endif %}
 
-{% capture url %}
+{% capture postUrl %}
   {% if post.rewriteUrl %}{{ post.rewriteUrl }}{% else %}{{ post.url }}{% endif %}
 {% endcapture %}
 
@@ -15,14 +15,10 @@
 
 <article class="post{% if forloop.last %} last{% endif %}">
 
-  {% if post.layout == 'photo' or page.title == post.title %}
-    {% if post.layout == 'photo' %}
-      <a href="{{ url }}">
-    {% endif %}
-    {{ post.image }}
-    {% if post.layout == 'photo' %}
-      </a>
-    {% endif %}
+  {% if post.layout == 'photo' %}
+    <a href="{{ postUrl }}">
+  {{ post.image }}
+    </a>
   {% endif %}
 
   <div class="post-content island">
@@ -32,7 +28,11 @@
         <h1 class="post-title">{{ post.title }}</h1>
       {% endif %}
 
-      <p class="post-time"><a href="{{ url }}"><time>{{ post.date | date: "%B %e, %Y" }}</time></a></p>
+      <p class="post-time">
+        <a href="{{ postUrl }}">
+          <time>{{ post.date | date: "%B %e, %Y" }}</time>
+        </a>
+      </p>
     </header>
 
     {% if page.title == post.title or home %}
