@@ -41,8 +41,6 @@
       {% if post.excerpt %}
         {{ post.excerpt | markdownify }}
         <p class="post-excerpt-permalink"><a href="{{ post.url }}">Continue reading</a></p>
-      {% else %}
-        {{ post.content }}
       {% endif %}
     {% endif %}
 
