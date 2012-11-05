@@ -2,6 +2,6 @@
 layout: default
 ---
 
-{% for post in site.tags.Promoted limit: 1 %}
+{% for post in paginator.posts %}
   {% include article.html %}
 {% endfor %}

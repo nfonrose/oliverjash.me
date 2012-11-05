@@ -4,18 +4,14 @@ destination: ./site
 markdown: rdiscount
 future: false
 paginate: 5
-paginate_base: blog
-paginate_index: blog/index.html
+paginate_base: /
+paginate_index: index.html
 
 title: Oliver Joseph Ash
-description: Personal writing, work and photography. The personal homepage of Oliver Joseph Ash.
+description: The journal of Oliver Joseph Ash’s final year University project.
 
 navigation:
 - text: Home
-  url: /index.html
-- text: About
-  url: /about.html
-- text: Blog
-  url: /blog/index.html
-- text: Archive
-  url: /archive.html
+  url: http://oliverash.me/
+- text: Final Year Project
+  url: /
