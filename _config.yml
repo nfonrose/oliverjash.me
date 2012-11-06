@@ -9,6 +9,7 @@ paginate_index: index.html
 
 title: Oliver Joseph Ash
 description: The journal of Oliver Joseph Ash’s final year University project.
+url: http://project.oliverash.me
 
 navigation:
 - text: Home
