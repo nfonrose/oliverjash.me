@@ -17,7 +17,11 @@
 
   {% if post.layout == 'photo' %}
     <a href="{{ postUrl }}">
-  {{ post.image }}
+      {% if post.resrc == true %}
+        <img class="post-image resrc" src="http://app.resrc.it/s=w310/o=10/{{ post.img }}" alt="{{ post.imgAlt }}">
+      {% else %}
+        <img class="post-image" src="{{ post.img }}" alt="{{ post.imgAlt }}">
+      {% endif %}
     </a>
   {% endif %}
 

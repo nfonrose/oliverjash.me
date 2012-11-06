@@ -9,6 +9,7 @@ paginate_index: blog/index.html
 
 title: Oliver Joseph Ash
 description: Personal writing, work and photography. The personal homepage of Oliver Joseph Ash.
+url: http://oliverash.me
 
 navigation:
 - text: Home
