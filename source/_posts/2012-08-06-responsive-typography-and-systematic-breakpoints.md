@@ -58,7 +58,7 @@ This two dimension list provides me with two options: font size and breakpoint. 
 
         }
 
-        // Finally, created a media query and generate the styles of the type system.
+        // Finally, create a media query and generate the styles of the type system.
         @include breakpoint($content-width) {
           @include type-system($font-size, $line-height, $content-width, $index);
         }
