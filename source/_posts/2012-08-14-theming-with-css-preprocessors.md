@@ -131,6 +131,11 @@ A clever way of achieving what we want here is to use the [`@extend`](http://des
 
 And our compiled CSS will look like:
 
+    .articles-list {
+      border-width: 1px;
+      border-style: solid;
+    }
+
     .default .articles-list {
       border-color: blue;
     }
