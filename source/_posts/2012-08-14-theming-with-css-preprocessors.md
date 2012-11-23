@@ -10,6 +10,8 @@ One thing that CSS preprocessors really help with is maintaining large colour sc
 In a recent project I was confronted with a design that used a primary colour simply for text and borders. The design demonstrated that different sections of the website would have the same layout, but a different primary colour for its text and borders.
 {% endexcerpt %}
 
+Let’s begin with two objects that share a colour palette (just blue for now):
+
     .articles-list {
       border-bottom: 1px solid blue;
     }
@@ -18,8 +20,7 @@ In a recent project I was confronted with a design that used a primary colour si
       color: blue;
     }
 
-I’m sure we all know that preprocessors can improve the situation here with variables.
-
+I’m sure we all know that preprocessors can improve the situation here with variables:
 
     $primary-colour: blue;
 
@@ -31,8 +32,9 @@ I’m sure we all know that preprocessors can improve the situation here with va
       color: $primary-colour;
     }
 
-I can theme the website by using a `body` class to specify the active theme.
+## Body Rulesets
 
+Now if I want to swap out the colours for those objects easily, I can substitute a `body` class to specify the active theme:
 
     /*body*/.default {
       $primary-colour: blue;
@@ -58,7 +60,7 @@ I can theme the website by using a `body` class to specify the active theme.
       }
     }
 
-This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, preprocessors aren’t clever enough to automatically generate my CSS.
+This is powerful because, simply by changing the class on the `body` element, we have the ability to change a whole website’s colour scheme. However, the disadvantage of our CSS is that I have to keep my colour styles separate from the rest of my style properties. Unfortunately, if I wanted all styles using `$primary-colour` to change with the body class, preprocessors aren’t clever enough to automatically generate my CSS:
 
     $primary-colour: blue;
 
@@ -74,7 +76,7 @@ This is powerful because, simply by changing the class on the `body` element, we
       color: $primary-colour;
     }
 
-Because of this, the compiled CSS would only provide styles for the default theme.
+Because of this, the compiled CSS would only provide styles for the default theme:
 
     .articles-list {
       border-bottom: 1px solid blue;
@@ -84,10 +86,16 @@ Because of this, the compiled CSS would only provide styles for the default them
       color: blue;
     }
 
-A clever way of achieving what we want here is to use the [`@extend`](http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/) method which is available in most preprocessors (Sass and Stylus at the time of writing) alongside [parent selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand).
+## Using `@extend` to Generate Body Rulesets
+
+A clever way of achieving what we want here is to use the [`@extend`](http://designshack.net/articles/css/extends-and-control-directives-two-crazy-things-sass-can-do-that-less-cant/) method which is available in most preprocessors (Sass and Stylus at the time of writing) alongside [parent selectors](http://thesassway.com/intermediate/referencing-parent-selectors-using-ampersand):
+
+    /* Variables */
 
     $default-primary-color: blue;
     $sports-primary-color: green;
+
+    /* Extendables */
 
     %brand-border-colour {
       .default & {
@@ -109,6 +117,8 @@ A clever way of achieving what we want here is to use the [`@extend`](http://des
       }
     }
 
+    /* Objects */
+
     .articles-list {
       @extend %brand-border-colour;
       border-width: 1px;
@@ -119,4 +129,22 @@ A clever way of achieving what we want here is to use the [`@extend`](http://des
       @extend %brand-colour;
     }
 
-This way we get to keep all of our colour styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS preprocessors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.
+And our compiled CSS will look like:
+
+    .default .articles-list {
+      border-color: blue;
+    }
+
+    .default .articles-list .article-title {
+      color: blue;
+    }
+
+    .sports .articles-list {
+      border-color: green;
+    }
+
+    .sports .articles-list .article-title {
+      color: green;
+    }
+
+This way we get to keep all of our theming styles with the rest of our styles, and therefore our code is a lot more maintainable. You could also use the colour functions provided by CSS preprocessors to extend this example, but the purpose of this article is to demonstrate how you can swap out and in entire colour schemes.

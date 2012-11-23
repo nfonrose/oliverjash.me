@@ -1,7 +1,7 @@
 ---
 tags: ['Promoted']
 layout: post
-title: Big CSS – Harry Roberts at<span class="b1-break"> The Digital Barn 2012</span>
+title: Big CSS&#58; Harry Roberts at<span class="b1-break"> The Digital Barn 2012</span>
 ---
 
 {% excerpt %}
