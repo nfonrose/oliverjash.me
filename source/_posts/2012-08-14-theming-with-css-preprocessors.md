@@ -5,7 +5,7 @@ title: Theming with CSS<span class="b1-break b2-unbreak"> Preprocessors</span>
 ---
 
 {% excerpt %}
-One thing that CSS preprocessors really help with is maintaining large colour schemes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS preprocessors can help a great deal with swapping out that lick of paint with a new one.
+One thing that CSS preprocessors really help with is maintaining large colour palettes. Sometimes, however, we need not just a large colour palette, but multiple colour schemes. If a colour is used sparingly across a design, CSS preprocessors can help a great deal with swapping out that lick of paint with a new one.
 
 In a recent project I was confronted with a design that used a primary colour simply for text and borders. The design demonstrated that different sections of the website would have the same layout, but a different primary colour for its text and borders.
 {% endexcerpt %}
