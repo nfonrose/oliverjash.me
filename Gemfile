@@ -7,6 +7,5 @@ gem "rdiscount"
 gem "modular-scale"
 gem "breakpoint"
 
-gem "html_press"
-gem "css_press"
+gem "jekyll-press"
 gem "uglifier"
