@@ -3,9 +3,13 @@ plugins: ./source/_plugins
 destination: ./site
 markdown: rdiscount
 future: false
+
 paginate: 5
 paginate_base: blog
 paginate_index: blog/index.html
+
+jekyll-press:
+  exclude: 'feed.xml'
 
 title: Oliver Joseph Ash
 description: Personal writing, work and photography. The personal homepage of Oliver Joseph Ash.
