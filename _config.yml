@@ -12,7 +12,7 @@ jekyll-press:
   exclude: 'feed.xml'
 
 title: Oliver Joseph Ash
-description: Personal writing, work and photography. The personal homepage of Oliver Joseph Ash.
+description: Developer and web enthusiast. I write about OOCSS, life, and some JavaScript.
 url: http://oliverash.me
 
 navigation:
