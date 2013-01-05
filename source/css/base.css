@@ -62,11 +62,6 @@ hr {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_reset\.scss}line{font-family:\0000319}}
-hr {
-  border: 0;
-}
-
 /* Author note: modified by Oliver Joseph Ash */
 /* normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
@@ -601,6 +596,12 @@ h3, .h3 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000357}}
 h4, .h4 {
   text-transform: lowercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000361}}
+hr {
+  border: 0;
+  border-top: 1px solid #cccccc;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_nav-list\.scss}line{font-family:\000031}}
