@@ -1,3 +1,4 @@
 $breakpoint-1: 320px;
 $breakpoint-2: 480px;
-$type-set: 16px $breakpoint-1, 16px $breakpoint-2, 16px, 18px, 20px;
+$breakpoint-3: 768px;
+$type-set: 16px $breakpoint-1, 16px $breakpoint-2, 16px $breakpoint-3, 18px, 20px;
