@@ -12,8 +12,8 @@ jekyll-press:
   exclude: 'feed.xml'
 
 title: Oliver Joseph Ash
-description: Developer and web enthusiast. I write about OOCSS, life, and some JavaScript.
-url: http://oliverash.me
+description: Front-end web developer and web enthusiast. Aside from that I'm a Irish Setter loving, Frank Turner junkie.
+url: http://oliverjash.me
 
 navigation:
 - text: Home
