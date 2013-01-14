@@ -13,7 +13,7 @@
     {% endif %}
     <title>{% if page.title != 'Home' %}{{ page.title | strip_html }} – {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="/css/base.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="http://feeds.feedburner.com/{{ site.feedBurnerId }}">
     <link rel="author" href="https://plus.google.com/106763773184987996036">
     <script src="/js/modernizr-2.6.1.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/qtb5goz.js"></script>
