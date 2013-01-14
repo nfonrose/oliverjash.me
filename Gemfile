@@ -8,4 +8,3 @@ gem "modular-scale"
 gem "breakpoint"
 
 gem "jekyll-press"
-gem "uglifier"
