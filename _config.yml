@@ -14,7 +14,9 @@ jekyll-press:
 title: Oliver Joseph Ash
 description: Front-end web developer and web enthusiast. Aside from that I'm a Irish Setter loving, Frank Turner junkie.
 url: http://oliverjash.me
-feedBurnerId: OliverJAsh
+
+feedBurner:
+  id: OliverJAsh
 
 navigation:
 - text: Home
