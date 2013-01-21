@@ -54,7 +54,6 @@ GEM
     pygments.rb (0.3.7)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
-    rdiscount (1.6.8)
     sass (3.2.5)
     sassy-math (1.5)
       compass (~> 0.11)
@@ -73,4 +72,3 @@ DEPENDENCIES
   jekyll
   jekyll-press
   modular-scale (= 1.0.4)
-  rdiscount

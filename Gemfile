@@ -2,7 +2,6 @@ source :rubygems
 
 gem "compass"
 gem "jekyll"
-gem "rdiscount"
 gem "jekyll-press"
 
 # Sass extensions
