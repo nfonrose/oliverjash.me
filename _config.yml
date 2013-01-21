@@ -1,3 +1,4 @@
+
 # Jekyll settings
 
 source: ./source
@@ -15,7 +16,7 @@ paginate_base: blog
 paginate_index: blog/index.html
 
 jekyll-press:
-  exclude: 'feed.xml'
+  exclude: ['feed.xml', 'css/base.css']
 
 # Content information
 
