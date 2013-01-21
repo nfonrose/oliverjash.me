@@ -1,48 +1,48 @@
 
 # Jekyll settings
 
-source: ./source
-plugins: ./source/_plugins
-destination: ./site
-# TO DO: Why don't I use the default, Maruku
-markdown: rdiscount
+source: "./source"
+plugins: "./source/_plugins"
+destination: "./site"
+# TO DO: Why don't I use the default, Maruku?
+markdown: "rdiscount"
 future: false
 exclude: ['Rakefile', 'config.rb']
 
 # Jekyll plugin options
 
 paginate: 5
-paginate_base: blog
-paginate_index: blog/index.html
+paginate_base: "blog"
+paginate_index: "blog/index.html"
 
 jekyll-press:
   exclude: ['feed.xml', 'css/base.css']
 
 # Content information
 
-title: Oliver Joseph Ash
-description: Front-end web developer and web enthusiast. Aside from that I'm an Irish Setter loving, Frank Turner junkie.
-url: http://oliverjash.me
-email: oliverjash@icloud.com
+title: "Oliver Joseph Ash"
+description: "Front-end web developer and web enthusiast. Aside from that I'm an Irish Setter loving, Frank Turner junkie."
+url: "http://oliverjash.me"
+email: "oliverjash@icloud.com"
 
 feedburner:
-  id: OliverJAsh
+  id: "OliverJAsh"
 
 googleAnalytics:
-  id: UA-29838483-1
+  id: "UA-29838483-1"
 
 typekit:
-  id: qtb5goz
+  id: "qtb5goz"
 
 googlePlus:
-  id: 106763773184987996036
+  id: "106763773184987996036"
 
 navigation:
-- text: Home
-  url: /index.html
-- text: About
-  url: /about.html
-- text: Blog
-  url: /blog/index.html
-- text: Archive
-  url: /archive.html
+- text: "Home"
+  url: "/index.html"
+- text: "About"
+  url: "/about.html"
+- text: "Blog"
+  url: "/blog/index.html"
+- text: "Archive"
+  url: "/archive.html"
