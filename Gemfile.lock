@@ -42,9 +42,9 @@ GEM
     liquid (2.4.1)
     maruku (0.6.1)
       syntax (>= 1.0.0)
-    modular-scale (1.0.5)
+    modular-scale (1.0.4)
       compass (>= 0.11.5)
-      sassy-math (>= 1.5)
+      sassy-math (>= 1.2)
     multi_css (0.1.0)
       css_press
     multi_js (0.0.1)
@@ -72,5 +72,5 @@ DEPENDENCIES
   compass
   jekyll
   jekyll-press
-  modular-scale
+  modular-scale (= 1.0.4)
   rdiscount
