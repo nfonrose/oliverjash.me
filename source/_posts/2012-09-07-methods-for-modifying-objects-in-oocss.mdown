@@ -1,7 +1,7 @@
 ---
 tags: ['Promoted']
 layout: post
-title: Methods for Modifying<span class="b1-break"> Objects in OOCSS</span> (Extends&#58; A Fool’s Gold)
+title: Methods for Modifying<span class="b1-break"> Objects in OOCSS</span> <small>(<code>@extend</code>&#58; A Fool’s Gold)</small>
 ---
 
 {% excerpt %}
