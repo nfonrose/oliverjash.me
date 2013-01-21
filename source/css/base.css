@@ -1,30 +1,31 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_styled-list\.scss}line{font-family:\000031}}
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_styled-list\.scss}line{font-family:\000031}}
 .nav-list, .archived-posts-list {
   list-style: none;
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_horizontal-list\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_horizontal-list\.scss}line{font-family:\000031}}
 .nav-list {
   *zoom: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/\.rvm\/gems\/ruby-1\.9\.3-p362\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
 .nav-list:after {
   content: "";
   display: table;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_horizontal-list\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_horizontal-list\.scss}line{font-family:\000035}}
 .nav-list li {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_typography\.scss}line{font-family:\000031}}
 body {
   font-family: ff-meta-serif-web-pro, "Lucida Bright", Constantia, Georgia, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_typography\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_typography\.scss}line{font-family:\000035}}
 h1, .h1,
 h2,
 .h2, .post .post-time,
@@ -32,14 +33,14 @@ h2,
   font-family: abril-display, Palatino, Georgia, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/placeholders\/_typography\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/placeholders\/_typography\.scss}line{font-family:\000039}}
 h3, .h3,
 h4,
 .h4 {
   font-family: proxima-nova-sc-osf, "Proxima Nova SC OSF", "Proxima Nova", sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_reset\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_reset\.scss}line{font-family:\0000315}}
 h1, .h1,
 h2,
 .h2,
@@ -70,7 +71,7 @@ hr {
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000323}}
 article,
 aside,
 details,
@@ -88,7 +89,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000333}}
 audio,
 canvas,
 video {
@@ -101,7 +102,7 @@ video {
  * Prevents modern browsers from displaying 'audio' without controls
  * Remove excess height in iOS5 devices
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000344}}
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -111,7 +112,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000354}}
 [hidden] {
   display: none;
 }
@@ -125,7 +126,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000370}}
 html {
   font-size: 100%;
   /* 1 */
@@ -138,7 +139,7 @@ html {
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000384}}
 html,
 button,
 input,
@@ -150,7 +151,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\0000392}}
 body {
   margin: 0;
 }
@@ -161,7 +162,7 @@ body {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003105}}
 a:focus {
   outline: thin dotted;
 }
@@ -170,7 +171,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003115}}
 a:hover,
 a:active {
   outline: 0;
@@ -182,7 +183,7 @@ a:active {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003128}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -190,13 +191,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003137}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003141}}
 blockquote {
   margin-left: 40px;
 }
@@ -204,7 +205,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003149}}
 dfn {
   font-style: italic;
 }
@@ -212,7 +213,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003157}}
 mark {
   background: #ff0;
   color: #000;
@@ -222,20 +223,20 @@ mark {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003170}}
 pre,
 code,
 kbd,
 samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em;
 }
 
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003180}}
 pre {
   white-space: pre;
   word-wrap: normal;
@@ -247,20 +248,20 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003193}}
 q {
   quotes: none;
 }
 
 /* 2 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003200}}
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003205}}
 small {
   font-size: 75%;
 }
@@ -269,7 +270,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003215}}
 sub,
 sup {
   font-size: 75%;
@@ -278,12 +279,12 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003222}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003226}}
 sub {
   bottom: -0.25em;
 }
@@ -294,7 +295,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003239}}
 dd {
   margin: 0 0 0 40px;
 }
@@ -302,7 +303,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003249}}
 menu,
 ol,
 ul {
@@ -312,7 +313,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003258}}
 nav ul,
 nav ol {
   list-style: none;
@@ -327,7 +328,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003274}}
 img {
   border: 0;
   /* 1 */
@@ -338,7 +339,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003283}}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -349,7 +350,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003296}}
 figure {
   margin: 0;
 }
@@ -360,7 +361,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003309}}
 form {
   margin: 0;
 }
@@ -368,9 +369,9 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003317}}
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -380,7 +381,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003329}}
 legend {
   border: 0;
   /* 1 */
@@ -396,7 +397,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003345}}
 button,
 input,
 select,
@@ -414,7 +415,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003357}}
 button,
 input {
   line-height: normal;
@@ -427,7 +428,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003371}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -443,7 +444,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003382}}
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -455,7 +456,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
     Known issue: excess padding remains in IE6
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003394}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -472,7 +473,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003406}}
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -485,7 +486,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003418}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003418}}
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -495,7 +496,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003428}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -506,7 +507,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003438}}
 textarea {
   overflow: auto;
   /* 1 */
@@ -520,7 +521,7 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_normalise\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_normalise\.scss}line{font-family:\00003452}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -530,7 +531,7 @@ table {
 Would be nice to use @content, but Sass' content block lives in the caller
 scope
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\000031}}
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -538,12 +539,12 @@ body {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\000039}}
 a {
   text-decoration: none;
   color: steelBlue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000313}}
 a:hover {
   text-decoration: underline;
 }
@@ -553,7 +554,7 @@ Double stranded heading hierachy as per
 http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
 */
 /* Default font weight for headings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000329}}
 h1, .h1,
 h2,
 .h2,
@@ -568,7 +569,7 @@ h6,
   font-weight: 600;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000341}}
 h3, .h3,
 h4,
 .h4,
@@ -580,113 +581,113 @@ h6,
   font-size: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000347}}
 h3, .h3,
 h4,
 .h4 {
   letter-spacing: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000352}}
 h3, .h3 {
   text-transform: uppercase;
   font-weight: 700;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000357}}
 h4, .h4 {
   text-transform: lowercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_typography\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_typography\.scss}line{font-family:\0000361}}
 hr {
   border: 0;
   border-top: 1px solid #cccccc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_nav-list\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_nav-list\.scss}line{font-family:\000031}}
 .nav-list {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_nav-list\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_nav-list\.scss}line{font-family:\000035}}
 .nav-list li {
   margin-left: 1em;
   font-weight: 600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_nav-list\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_nav-list\.scss}line{font-family:\000038}}
 .nav-list li:first-child {
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\000031}}
 .post {
   background-color: white;
   overflow: hidden;
   border-bottom: 1px solid #d9d9d9;
   /*  Increase score to beat `.post-content p` */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\000036}}
 .post.last {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000312}}
 .post .post-time,
 .post .post-excerpt-permalink {
   text-align: center;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000319}}
 .post-image {
   display: block;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000324}}
 .post-title {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000328}}
 .post-content {
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000331}}
 .post-content img {
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000335}}
 .post-content p {
   text-align: justify;
 }
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000335}}
   .post-content p {
     text-align: left;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_post\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_post\.scss}line{font-family:\0000343}}
 .post-content img {
   display: block;
 }
 
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_img\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_img\.scss}line{font-family:\000031}}
   .img-right {
     float: right;
   }
 }
 
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_img\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_img\.scss}line{font-family:\000037}}
   .img-left {
     float: left;
   }
 }
 
 @media (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/objects\/_img\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/objects\/_img\.scss}line{font-family:\0000313}}
   .img-2-5 {
     width: 40%;
   }
@@ -717,13 +718,13 @@ Finally, created a media query and generate the styles of the type system.
 /* Golden ratio, used for the modular scale */
 /* Change the modular scale for smaller devices */
 /* Perfect fifth */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
 body {
   font-size: 16px;
   line-height: 23px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
 h3, .h3,
 h4,
 .h4,
@@ -736,22 +737,22 @@ pre {
   margin-bottom: 23px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
 .b0-break {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
 .b0-unbreak {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
 .l-container {
   max-width: 304px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
 .island {
   padding-right: 16px;
   padding-left: 16px;
@@ -762,7 +763,7 @@ Okay. I go a bit crazy and also calculate the optimal line height for
 headings, because they have different font sizes but share the same
 content width. Thus, the optimal line height will be different.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
 .post-title {
   font-size: 28px;
   line-height: 38px;
@@ -771,7 +772,7 @@ content width. Thus, the optimal line height will be different.
   width: 240px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
 .post-content {
   width: 240px;
   margin-top: 69px;
@@ -785,7 +786,7 @@ https:/*github.com/scottkellum/modular-scale/
   breakpoints.
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
 .post-content > h2, .post-content > .h2 {
   font-size: 21px;
   line-height: 29px;
@@ -793,7 +794,7 @@ https:/*github.com/scottkellum/modular-scale/
   margin-bottom: 29px;
   width: 240px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
 .post-content pre {
   /* We don’t need margins, so use the inside method */
   font-size: 13px;
@@ -801,7 +802,7 @@ https:/*github.com/scottkellum/modular-scale/
   width: 208px;
   padding: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
 .post-content img {
   margin-bottom: 23px;
 }
@@ -832,13 +833,13 @@ Finally, created a media query and generate the styles of the type system.
   /* Golden ratio, used for the modular scale */
   /* Change the modular scale for smaller devices */
   /* Perfect fifth */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
   body {
     font-size: 16px;
     line-height: 24px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
   h3, .h3,
   h4,
   .h4,
@@ -851,22 +852,22 @@ Finally, created a media query and generate the styles of the type system.
     margin-bottom: 24px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
   .b1-break {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
   .b1-unbreak {
     display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
   .l-container {
     max-width: 456px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
   .island {
     padding-right: 16px;
     padding-left: 16px;
@@ -877,7 +878,7 @@ Finally, created a media query and generate the styles of the type system.
   headings, because they have different font sizes but share the same
   content width. Thus, the optimal line height will be different.
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
   .post-title {
     font-size: 28px;
     line-height: 38px;
@@ -886,7 +887,7 @@ Finally, created a media query and generate the styles of the type system.
     width: 376px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
   .post-content {
     width: 376px;
     margin-top: 72px;
@@ -900,7 +901,7 @@ https:/*github.com/scottkellum/modular-scale/
     breakpoints.
      */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
   .post-content > h2, .post-content > .h2 {
     font-size: 21px;
     line-height: 30px;
@@ -908,7 +909,7 @@ https:/*github.com/scottkellum/modular-scale/
     margin-bottom: 30px;
     width: 376px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
   .post-content pre {
     /* We don’t need margins, so use the inside method */
     font-size: 13px;
@@ -916,19 +917,19 @@ https:/*github.com/scottkellum/modular-scale/
     width: 344px;
     padding: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
   .post-content img {
     margin-bottom: 24px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
   .post-content .img-left {
     margin-right: 24px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
   .post-content .img-right {
     margin-left: 24px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
   .post-content blockquote {
     /* We don’t need margins, so use the inside method */
     font-size: 16px;
@@ -961,13 +962,13 @@ Finally, created a media query and generate the styles of the type system.
 @media (min-width: 768px) {
   /* Golden ratio, used for the modular scale */
   /* Change the modular scale for smaller devices */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
   body {
     font-size: 16px;
     line-height: 26px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
   h3, .h3,
   h4,
   .h4,
@@ -980,22 +981,22 @@ Finally, created a media query and generate the styles of the type system.
     margin-bottom: 26px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
   .b2-break {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
   .b2-unbreak {
     display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
   .l-container {
     max-width: 729.6px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
   .island {
     padding-right: 16px;
     padding-left: 16px;
@@ -1006,7 +1007,7 @@ Finally, created a media query and generate the styles of the type system.
   headings, because they have different font sizes but share the same
   content width. Thus, the optimal line height will be different.
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
   .post-title {
     font-size: 42px;
     line-height: 57px;
@@ -1015,7 +1016,7 @@ Finally, created a media query and generate the styles of the type system.
     width: 620.8px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
   .post-content {
     width: 620.8px;
     margin-top: 78px;
@@ -1029,7 +1030,7 @@ https:/*github.com/scottkellum/modular-scale/
     breakpoints.
      */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
   .post-content > h2, .post-content > .h2 {
     font-size: 26px;
     line-height: 37px;
@@ -1037,7 +1038,7 @@ https:/*github.com/scottkellum/modular-scale/
     margin-bottom: 37px;
     width: 620.8px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
   .post-content pre {
     /* We don’t need margins, so use the inside method */
     font-size: 13px;
@@ -1045,19 +1046,19 @@ https:/*github.com/scottkellum/modular-scale/
     width: 588.8px;
     padding: 16px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
   .post-content img {
     margin-bottom: 26px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
   .post-content .img-left {
     margin-right: 26px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
   .post-content .img-right {
     margin-left: 26px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
   .post-content blockquote {
     /* We don’t need margins, so use the inside method */
     font-size: 16px;
@@ -1083,13 +1084,13 @@ Finally, created a media query and generate the styles of the type system.
 @media (min-width: 1038px) {
   /* Golden ratio, used for the modular scale */
   /* Change the modular scale for smaller devices */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
   body {
     font-size: 18px;
     line-height: 29px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
   h3, .h3,
   h4,
   .h4,
@@ -1102,22 +1103,22 @@ Finally, created a media query and generate the styles of the type system.
     margin-bottom: 29px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
   .b3-break {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
   .b3-unbreak {
     display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
   .l-container {
     max-width: 986.1px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
   .island {
     padding-right: 18px;
     padding-left: 18px;
@@ -1128,7 +1129,7 @@ Finally, created a media query and generate the styles of the type system.
   headings, because they have different font sizes but share the same
   content width. Thus, the optimal line height will be different.
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
   .post-title {
     font-size: 47px;
     line-height: 64px;
@@ -1137,7 +1138,7 @@ Finally, created a media query and generate the styles of the type system.
     width: 829px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
   .post-content {
     width: 829px;
     margin-top: 87px;
@@ -1151,7 +1152,7 @@ https:/*github.com/scottkellum/modular-scale/
     breakpoints.
      */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
   .post-content > h2, .post-content > .h2 {
     font-size: 29px;
     line-height: 41px;
@@ -1159,7 +1160,7 @@ https:/*github.com/scottkellum/modular-scale/
     margin-bottom: 41px;
     width: 829px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
   .post-content pre {
     /* We don’t need margins, so use the inside method */
     font-size: 14px;
@@ -1167,19 +1168,19 @@ https:/*github.com/scottkellum/modular-scale/
     width: 793px;
     padding: 18px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
   .post-content img {
     margin-bottom: 29px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
   .post-content .img-left {
     margin-right: 29px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
   .post-content .img-right {
     margin-left: 29px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
   .post-content blockquote {
     /* We don’t need margins, so use the inside method */
     font-size: 18px;
@@ -1205,13 +1206,13 @@ Finally, created a media query and generate the styles of the type system.
 @media (min-width: 1231.2px) {
   /* Golden ratio, used for the modular scale */
   /* Change the modular scale for smaller devices */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000314}}
   body {
     font-size: 20px;
     line-height: 32px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000325}}
   h3, .h3,
   h4,
   .h4,
@@ -1224,22 +1225,22 @@ Finally, created a media query and generate the styles of the type system.
     margin-bottom: 32px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000332}}
   .b4-break {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000336}}
   .b4-unbreak {
     display: inline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000340}}
   .l-container {
     max-width: 1169.64px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000344}}
   .island {
     padding-right: 20px;
     padding-left: 20px;
@@ -1250,7 +1251,7 @@ Finally, created a media query and generate the styles of the type system.
   headings, because they have different font sizes but share the same
   content width. Thus, the optimal line height will be different.
   */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000356}}
   .post-title {
     font-size: 52px;
     line-height: 70px;
@@ -1259,7 +1260,7 @@ Finally, created a media query and generate the styles of the type system.
     width: 986px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000360}}
   .post-content {
     width: 986px;
     margin-top: 96px;
@@ -1273,7 +1274,7 @@ https:/*github.com/scottkellum/modular-scale/
     breakpoints.
      */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000372}}
   .post-content > h2, .post-content > .h2 {
     font-size: 32px;
     line-height: 46px;
@@ -1281,7 +1282,7 @@ https:/*github.com/scottkellum/modular-scale/
     margin-bottom: 46px;
     width: 986px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000376}}
   .post-content pre {
     /* We don’t need margins, so use the inside method */
     font-size: 16px;
@@ -1289,19 +1290,19 @@ https:/*github.com/scottkellum/modular-scale/
     width: 946px;
     padding: 20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000382}}
   .post-content img {
     margin-bottom: 32px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000391}}
   .post-content .img-left {
     margin-right: 32px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000395}}
   .post-content .img-right {
     margin-left: 32px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/foundations\/_type-system\.scss}line{font-family:\0000399}}
   .post-content blockquote {
     /* We don’t need margins, so use the inside method */
     font-size: 20px;
@@ -1309,30 +1310,30 @@ https:/*github.com/scottkellum/modular-scale/
     width: 906px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000324}}
 .hidden {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000328}}
 body {
   min-width: 320px;
   background-color: #1a1a1a;
 }
 
 /* Hide nav headings */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000335}}
 nav > h1, nav > .h1 {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000340}}
 pre {
   background: ghostWhite;
   border: 1px solid #e6e6e6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000345}}
 blockquote {
   /*
   At b1 and above, the blockquote has its own content width, so we centre it
@@ -1343,28 +1344,28 @@ blockquote {
   color: #666666;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000354}}
 .l-container {
   margin-left: auto;
   margin-right: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000360}}
 .l-header,
 .l-header a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000364}}
 .l-header h1, .l-header .h1 {
   text-align: center;
   font-weight: 400;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000370}}
 .l-header a:hover {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverash\.me\/sass\/base\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Oliver\/Development\/Personal\/oliverjash\.me\/source\/_sass\/base\.scss}line{font-family:\0000378}}
 .l-footer,
 .l-footer a {
   color: gray;
