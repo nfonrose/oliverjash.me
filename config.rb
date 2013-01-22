@@ -2,11 +2,8 @@
 require "modular-scale"
 require "breakpoint"
 
-# TO DO: Setup production env
-environment = :development
-
 # Set this to the root of your project when deployed:
-http_path = "site"
+http_path = "/"
 css_dir = "source/css"
 sass_dir = "source/_sass"
 images_dir = "source/images"
