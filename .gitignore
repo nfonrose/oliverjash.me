@@ -16,6 +16,7 @@ Thumbs.db
 
 # Static site output
 site
+source/css
 
 # Other
 *.sublime-project
