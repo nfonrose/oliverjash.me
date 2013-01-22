@@ -64,5 +64,5 @@ def jekyll(opts = '')
 end
 
 def compass(opts = '')
-  sh 'compass compile -c config.rb --force ' + opts
+  sh "compass compile -e #{ENV['RAKE_ENV']} -c config.rb --force " + opts
 end
