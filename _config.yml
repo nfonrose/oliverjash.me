@@ -1,18 +1,46 @@
-source: ./source
-plugins: ./source/_plugins
-destination: ./site
-markdown: rdiscount
-future: false
-paginate: 5
-paginate_base: /
-paginate_index: index.html
 
-title: Oliver Joseph Ash
-description: The journal of Oliver Joseph Ash’s final year University project.
-url: http://project.oliverash.me
+# Jekyll settings
+
+source: "./source"
+plugins: "./source/_plugins"
+destination: "./site"
+future: false
+exclude: ['Rakefile', 'config.rb']
+
+# Jekyll plugin options
+
+paginate: 5
+paginate_base: "blog"
+paginate_index: "blog/index.html"
+
+jekyll-press:
+  exclude: ['feed.xml', 'css/base.css']
+
+# Content information
+
+title: "Oliver Joseph Ash"
+description: "Front-end web developer and web enthusiast. Aside from that I'm an Irish Setter loving, Frank Turner junkie."
+url: "http://oliverjash.me"
+email: "oliverjash@icloud.com"
+
+feedburner:
+  id: "OliverJAsh"
+
+googleAnalytics:
+  id: "UA-29838483-1"
+
+typekit:
+  id: "qtb5goz"
+
+googlePlus:
+  id: "106763773184987996036"
 
 navigation:
-- text: Home
-  url: http://oliverash.me/
-- text: Final Year Project
-  url: /
+- text: "Home"
+  url: "/index.html"
+- text: "About"
+  url: "/about.html"
+- text: "Blog"
+  url: "/blog/index.html"
+- text: "Archive"
+  url: "/archive.html"

@@ -8,7 +8,6 @@
 *.swp
 *.vi
 *~
-*.sass-cache
 
 # OS or Editor folders
 .DS_Store
@@ -17,4 +16,9 @@ Thumbs.db
 
 # Static site output
 site
-Procfile
+source/css
+
+# Other
+*.sublime-project
+*.sublime-workspace
+*.sass-cache

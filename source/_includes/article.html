@@ -1,30 +1,45 @@
+{% comment %} This partial is used to display articles wherever they may be – in the form of a permalink or as part of a loop {% endcomment %}
+
+{% comment %} Alias `post.content` to `content` if this is a post {% endcomment %}
 {% if post %}
   {% assign content = post.content %}
 {% endif %}
+
+{% comment %} Alias `page` to `post` if this is a page {% endcomment %}
 {% if page %}
   {% assign post = page %}
 {% endif %}
 
-{% capture postUrl %}
-  {% if post.rewriteUrl %}{{ post.rewriteUrl }}{% else %}{{ post.url }}{% endif %}
-{% endcapture %}
+{% comment %} If a URL has been specified, we override post.url by creating another variable {% endcomment %}
+{% capture postUrl %}{% if post.rewriteUrl %}{{ post.rewriteUrl }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
 
-{% unless page.title %}
+{% comment %} Initially we serve a very small and low quality image. The ReSRC.it JS will take care of responding to wider widths and devices with better bandwidths {% endcomment %}
+{% capture postImg %}{% if post.resrc == true %}http://app.resrc.it/s=w310/o=10/{{ post.img }}{% else %}{{ post.img }}{% endif %}{% endcapture %}
+
+{% comment %} We create a `canonical` variable to test whether the whole content for a post should be shown, or just an excerpt. {% endcomment %}
+{% if page.title == 'Home' %}
   {% assign home = true %}
-{% endunless %}
+{% endif %}
+{% if page.title == post.title %}
+  {% assign perm = true %}
+{% endif %}
 
+<!-- TO DO: Rename `last` to `post-last` (modifier)? -->
 <article class="post{% if forloop.last %} last{% endif %}">
 
-  {% if post.layout == 'photo' %}
+  {% comment %} Header for post types of `photo` {% endcomment %}
+  {% if postImg %}
     <a href="{{ postUrl }}">
-  {{ post.image }}
+      <img class="post-image{% if post.rewriteUrl %} resrc{% endif %}" src="{{ postImg }}" alt="{{ post.imgAlt }}">
     </a>
   {% endif %}
 
   <div class="post-content island">
 
     <header>
-      {% if post.layout == 'post' or page.title == post.title %}
+      {% comment %} Photo posts will not have a h1, so we need to check that this is a post. {% endcomment %}
+      {% comment %} On perm pages, `post.layout` will == `default` because it is inherited from `page` {% endcomment %}
+      {% if perm or post.layout == 'post' %}
         <h1 class="post-title">{{ post.title }}</h1>
       {% endif %}
 
@@ -35,9 +50,10 @@
       </p>
     </header>
 
-    {% if page.title == post.title %}
+    {% if home or perm %}
       {{ content }}
     {% else %}
+      {% comment %} Liquid has no notion of `elseif` {% endcomment %}
       {% if post.excerpt %}
         {{ post.excerpt | markdownify }}
         <p class="post-excerpt-permalink"><a href="{{ post.url }}">Continue reading</a></p>
