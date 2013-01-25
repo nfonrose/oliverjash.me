@@ -19,8 +19,8 @@ jekyll-press:
 # Content information
 
 title: "Oliver Joseph Ash"
-description: "Front-end web developer and web enthusiast. Aside from that I'm an Irish Setter loving, Frank Turner junkie."
-url: "http://oliverjash.me"
+description: "The journal of Oliver Joseph Ash’s final year University project."
+url: "http://project.oliverjash.me"
 email: "oliverjash@icloud.com"
 
 feedburner:
@@ -37,10 +37,6 @@ googlePlus:
 
 navigation:
 - text: "Home"
-  url: "/index.html"
-- text: "About"
-  url: "/about.html"
-- text: "Blog"
-  url: "/blog/index.html"
-- text: "Archive"
-  url: "/archive.html"
+  url: "http://oliverjash.me/"
+- text: "Final Year Project"
+  url: "/"
