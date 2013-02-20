@@ -42,11 +42,18 @@ pre {
   border: 1px solid hsl(0, 0%, 90%);
 }
 
+figcaption {
+  text-align: center;
+}
+
 blockquote {
+  @include centered();
+}
+
+blockquote, figcaption {
   /*
   At b1 and above, the blockquote has its own content width, so we centre it
   */
-  @include centered();
   font-style: italic;
   color: hsl(0, 0%, 40%);
 }
