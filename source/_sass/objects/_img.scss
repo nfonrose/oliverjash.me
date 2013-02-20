@@ -4,6 +4,10 @@
   }
 }
 
+.img-center {
+  @include centered();
+}
+
 .img-left {
   @include breakpoint($breakpoint-2) {
     float: left;
