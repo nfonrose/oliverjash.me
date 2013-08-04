@@ -30,9 +30,7 @@ layout: nil
       {% if post.layout == 'photo' %}
         {% capture postImage %}
           <a href="{{ postUrl }}">
-            {% if post.resrc == true %}
-              <img class="post-image" src="{{ post.img }}" alt="{{ post.imgAlt }}">
-            {% endif %}
+            <img class="post-image" src="{{ post.img }}" alt="{{ post.imgAlt }}">
           </a>
         {% endcapture %}
       {% endif %}

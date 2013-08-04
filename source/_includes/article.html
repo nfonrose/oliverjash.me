@@ -13,9 +13,6 @@
 {% comment %} If a URL has been specified, we override post.url by creating another variable {% endcomment %}
 {% capture postUrl %}{% if post.rewriteUrl %}{{ post.rewriteUrl }}{% else %}{{ post.url }}{% endif %}{% endcapture %}
 
-{% comment %} Initially we serve a very small and low quality image. The ReSRC.it JS will take care of responding to wider widths and devices with better bandwidths {% endcomment %}
-{% capture postImg %}{% if post.resrc == true %}http://app.resrc.it/s=w310/o=10/{{ post.img }}{% else %}{{ post.img }}{% endif %}{% endcapture %}
-
 {% comment %} We create a `canonical` variable to test whether the whole content for a post should be shown, or just an excerpt. {% endcomment %}
 {% if page.title == 'Home' %}
   {% assign home = true %}
@@ -28,9 +25,9 @@
 <article class="post{% if forloop.last %} last{% endif %}">
 
   {% comment %} Header for post types of `photo` {% endcomment %}
-  {% if postImg %}
+  {% if post.img %}
     <a href="{{ postUrl }}">
-      <img class="post-image{% if post.rewriteUrl %} resrc{% endif %}" src="{{ postImg }}" alt="{{ post.imgAlt }}">
+      <img class="post-image" src="{{ post.img }}" alt="{{ post.imgAlt }}">
     </a>
   {% endif %}
 
